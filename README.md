@@ -29,7 +29,7 @@ addon | version | maintainers | summary
 [product_expiry_assign](product_expiry_assign/) | 18.0.1.0.0 |  | Force the reservation of expired lots.
 [sale_stock_available_to_promise_release](sale_stock_available_to_promise_release/) | 18.0.2.0.1 |  | Integration between Sales and Available to Promise Release
 [sale_stock_available_to_promise_release_dropshipping](sale_stock_available_to_promise_release_dropshipping/) | 18.0.1.0.0 |  | Glue module between sale_stock_available_to_promise_release and stock_dropshipping
-[stock_available_to_promise_release](stock_available_to_promise_release/) | 18.0.1.7.0 |  | Release Operations based on available to promise
+[stock_available_to_promise_release](stock_available_to_promise_release/) | 18.0.1.7.1 |  | Release Operations based on available to promise
 [stock_available_to_promise_release_carrier_alternative](stock_available_to_promise_release_carrier_alternative/) | 18.0.1.0.1 |  | Advanced selection of preferred shipping methods
 [stock_available_to_promise_release_delivery](stock_available_to_promise_release_delivery/) | 18.0.1.0.1 |  | Glue module between release mechanism and delivery.
 [stock_available_to_promise_release_dynamic_routing](stock_available_to_promise_release_dynamic_routing/) | 18.0.1.0.1 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Glue between moves release and dynamic routing
@@ -38,6 +38,9 @@ addon | version | maintainers | summary
 [stock_move_free_reservation_reassign](stock_move_free_reservation_reassign/) | 18.0.1.0.0 |  | Try to reassign a move when its reservation is removed due to the related quant becoming unavailable
 [stock_picking_unreserve_button](stock_picking_unreserve_button/) | 18.0.1.0.0 |  | Stock Picking Unreserve Button
 [stock_quant_manual_assign](stock_quant_manual_assign/) | 18.0.1.1.2 |  | Stock - Manual Quant Assignment
+[stock_removal_zone_fefo](stock_removal_zone_fefo/) | 18.0.1.0.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Removal strategy expiring goods first, then goods that entered a storage zone first
+[stock_removal_zone_fifo](stock_removal_zone_fifo/) | 18.0.1.0.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Removal strategy giving priority to the goods that entered a storage zone first
+[stock_removal_zone_fifo_location_zone](stock_removal_zone_fifo_location_zone/) | 18.0.1.0.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Use the location zones to keep the zone entry date of moved goods
 [stock_reserve](stock_reserve/) | 18.0.1.0.0 |  | Stock reservations on products
 [stock_reserve_rule](stock_reserve_rule/) | 18.0.1.2.6 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Configure reservation rules by location
 [stock_rule_reserve_max_quantity](stock_rule_reserve_max_quantity/) | 18.0.1.0.1 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Allows to reserve max available quantity when a move comes from an stock rule
